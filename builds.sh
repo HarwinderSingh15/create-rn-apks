@@ -9,7 +9,7 @@ open_and_rename_build () {
     path=$1
     ext=$2
     # you are in android folder
-    cd "app/build/outputs/$path/release" && open . && mv "app-release.$ext" "recover_my_id@$current_date"_"$current_time"."$ext"
+    cd "app/build/outputs/$path/release" && open . && mv "app-release.$ext" "your_project_name_here@$current_date"_"$current_time"."$ext"
 }
 
 make_debug_release () {
